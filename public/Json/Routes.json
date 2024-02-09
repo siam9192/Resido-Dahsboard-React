@@ -1,0 +1,33 @@
+[
+    {
+    "displayName":"Dashboard",
+    "path": "/",
+     "icon":"BsFillGridFill"
+    },
+    {
+        "displayName":"Properties",
+        "path": "/properties",
+         "icon":"FaHouseCrack"
+        },
+        {
+            "displayName":"Customers",
+            "path": "/customers",
+             "icon":"ImUsers"
+            },
+            {
+                "displayName":"Agents",
+                "path": "/agents",
+                 "icon":"FaUserCheck"
+                },
+                {
+                    "displayName":"Transitions",
+                    "path": "/transitions",
+                     "icon":"FaDollarSign"
+                    },
+                    {
+                        "displayName":"Reviews",
+                        "path": "/reviews",
+                         "icon":"AiOutlineFileSearch"
+                        }
+    
+]
