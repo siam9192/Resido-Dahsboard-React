@@ -32,6 +32,9 @@ const SideNavigationBar = ({ handleToggle}) => {
                      "icon":<FaUserCheck></FaUserCheck>
                     },
                     {
+
+                    },
+                    {
                         "displayName":"Transitions",
                         "path": "/transitions",
                          "icon":<FaDollarSign></FaDollarSign>

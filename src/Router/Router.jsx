@@ -4,6 +4,8 @@ import Routes from '../Routes/Routes';
 import Dashboard from '../Pages/Dashboard/Dashboard';
 import Properties from '../Pages/Properties/Properties';
 import Customers from '../Pages/Customers/Customers';
+import Reviews from '../Pages/Reviews/Reviews';
+import Agents from '../Pages/Agents/Agents';
 
 
    const Router = createBrowserRouter([
@@ -22,6 +24,14 @@ import Customers from '../Pages/Customers/Customers';
             {
                 path:'/customers',
                 element:<Customers></Customers>
+            },
+            {
+                path:'/reviews',
+                element:<Reviews></Reviews>
+            },
+            {
+                path:'/agents',
+                element:<Agents></Agents>
             }
         ]
     }

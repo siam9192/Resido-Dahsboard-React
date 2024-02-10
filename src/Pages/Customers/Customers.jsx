@@ -25,9 +25,20 @@ const Customers = () => {
         setActiveOption(index)
     }
     }
-    function handler (){
-        
+    function handler (event){
+        if(optionRef.current && !optionRef.current.contains(event.target)){
+            setActiveOption(null)
+        }
+        else{
+
+        }
     }
+    useEffect(()=>{
+        document.addEventListener('mousedown',handler)
+        return ()=>{
+            document.removeEventListener('mousedown',handler)
+        }
+    },[])
     return (
         <div className='py-5'>
            <div className='p-5 rounded-lg bg-color_main_light'> 
