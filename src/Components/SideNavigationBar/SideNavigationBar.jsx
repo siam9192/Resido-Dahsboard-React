@@ -7,6 +7,7 @@ import { FaUserCheck } from "react-icons/fa6";
 import { FaDollarSign } from "react-icons/fa";
 import { AiOutlineFileSearch } from "react-icons/ai";
 import axios from 'axios';
+import { TbGitPullRequestClosed } from "react-icons/tb";
 import { Link, useLocation } from 'react-router-dom';
 const SideNavigationBar = ({ handleToggle}) => {
     const {pathname} = useLocation();
@@ -32,13 +33,15 @@ const SideNavigationBar = ({ handleToggle}) => {
                      "icon":<FaUserCheck></FaUserCheck>
                     },
                     {
-
+                        "displayName":"Role Applications",
+                        "path": "/role/applications",
+                         "icon":<TbGitPullRequestClosed></TbGitPullRequestClosed>
                     },
-                    {
-                        "displayName":"Transitions",
-                        "path": "/transitions",
-                         "icon":<FaDollarSign></FaDollarSign>
-                        },
+                    // {
+                    //     "displayName":"Transitions",
+                    //     "path": "/transitions",
+                    //      "icon":<FaDollarSign></FaDollarSign>
+                    //     },
                         {
                             "displayName":"Reviews",
                             "path": "/reviews",

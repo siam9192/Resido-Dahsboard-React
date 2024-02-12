@@ -9,81 +9,81 @@ const RevenueProgress = () => {
      const array = [
         {
             date:'0'+6,
-            value:7000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:'0'+7,
-            value:6000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:'0'+8,
-            value:100000
+            value:parseInt(Math.random()*1000000)
         }
         ,
         {
             date:'0'+9,
-            value:200000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:10,
-            value:95000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:11,
-            value:35000
+            value:parseInt(Math.random()*1000000)
         }
         ,
         {
             date:12,
-            value:90000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:13,
-            value:125000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:14,
-            value:20000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:15,
-            value:280000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:16,
-            value:35000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:17,
-            value:30000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:18,
-            value:27000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:19,
-            value:250000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:20,
-            value:390000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:21,
-            value:340000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:22,
-            value:370000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:23,
-            value:230000
+            value:parseInt(Math.random()*1000000)
         },
         {
             date:24,
-            value:270000
+            value:parseInt(Math.random()*1000000)
         }
      
      ]
